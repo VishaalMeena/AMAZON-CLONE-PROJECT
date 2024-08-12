@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 120px;
+}
+
+.logo {
+    background-image: url("images.png");
+    height: 45px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+.nav-address {
+    margin-left: 5px;
+}
+
+.first-add {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 14.5px;
+}
+
+.sec-add {
+    margin-left: 2.5px;
+    font-size: 1rem;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    margin-left: 15px;
+    display: flex;
+    background-color: pink;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.search-select {
+    background-color: #e3dede;
+    width: 55px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+    font-size: 0.65rem;
+}
+
+.search-select:hover {
+    background-color: #c9c7c7;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgba(4, 4, 4, 0.8);
+    background-color: #febd68;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.search-icon:hover {
+    background-color: rgba(237, 158, 13, 0.7);
+}
+
+.country {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+.CN {
+    margin-left: 4px;
+    height: 18px;
+    width: 42px;
+}
+
+.IN {
+    margin-left: 4px;
+    height: 22px;
+    width: 25px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.nav-signin {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*last box*/
+.nav-cart i {
+    font-size: 25px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*Panel*/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+.panel-opts p {
+    display: inline;
+    margin-left: 12px;
+}
+.panel-opts {
+    width: 80%;
+    font-size: 0.85rem;
+}
+.panel-opts p:hover{
+    border: 2px solid white;
+}
+
+.panel-deals {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*Main body */
+.hero-section {
+    background-image: url("1st box.jpg");
+    background-size: cover;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 900px;
+    margin-bottom: 40px;
+}
+
+.hero-msg a {
+    color: #039866;
+    font-weight: 500;
+}
+
+/*boxes for other products*/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    border: 2px solid rgb(233, 232, 232);
+    height: 410px;
+    width: 23%;
+    background-color: rgb(255, 252, 252);
+    margin-top: 30px;
+    padding: 20px 0px 15px;
+    
+}
+
+.box-img
+{
+    height: 280px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+}
+.box-content
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content a{
+    color: #007e81;
+}
+
+/* Footer */
+
+footer
+{
+   margin-top: 15px;
+}
+.foot-panel1
+{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.foot-panel2
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+}
+ul a
+{
+    font-size: 50px;
+}
+ul{
+   margin-top: 30px; 
+   padding: 0px 10px;
+   
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+    margin-top: 10px;
+}
+
+ul paragraph {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.foot-panel3
+{
+    background-color: #222f3d;
+    height: 100px;
+    border-top: 0.5px solid rgb(255, 255, 255,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2 ul a:hover,
+.foot-panel2 ul p:hover
+{
+    text-decoration: underline;
+}
+
+.logo2
+{
+    background-image: url("images.png");
+    height: 30px;
+    width: 115px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 110px;
+}
+.extra
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.lang{
+    height:25px;
+    width: 80px;
+    font-size: 0.85rem;
+    color: white;
+    padding: 4px 4px 4px 4px;
+    border: 2px solid grey;
+    border-radius: 7%;
+    margin-right: 7px;
+}
+
+.Currency
+{
+    height:25px;
+    width: 145px;
+    font-size: 0.85rem;
+    color: white;
+    padding: 4px 4px 4px 4px;
+    border: 2px solid grey;
+    border-radius: 7%;
+}
+
+.foot-panel4
+{
+    background-color: #131a22;
+    color: white;
+    height: 70px;
+    font-size: 0.7rem;
+}
+
+.pages{
+    text-align: center;
+    padding-top: 15px;
+}
+.copyright
+{
+    text-align: center;
+    padding-top: 7px;
+}
+.pages a{
+    margin-left: 15px;
+}
+.foot-panel4 ul a:hover,
+.foot-panel4 ul p:hover
+{
+    text-decoration: underline;
+}
+
+.pages a:hover
+{
+    text-decoration: underline;
+}
+
+.copyright p:hover
+{
+    text-decoration: underline;
+}
